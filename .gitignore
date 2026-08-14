@@ -6,7 +6,10 @@ ajihad-website/uploads/
 ajihad-website/.claude/
 ajihad-website/.logs/
 ajihad-website/.manus/
-ajihad-website/patches/
+# Keep the dependency patch referenced by package.json; ignore only other local patches.
+ajihad-website/patches/*
+!ajihad-website/patches/
+!ajihad-website/patches/wouter@3.7.1.patch
 
 # Local environment files
 ajihad-website/.env
