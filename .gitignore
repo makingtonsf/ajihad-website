@@ -1,0 +1,20 @@
+# Local dependencies and build outputs
+.pnpm-store/
+ajihad-website/node_modules/
+ajihad-website/dist/
+ajihad-website/uploads/
+ajihad-website/.claude/
+ajihad-website/.logs/
+ajihad-website/.manus/
+ajihad-website/patches/
+
+# Local environment files
+ajihad-website/.env
+ajihad-website/.env.*
+!ajihad-website/.env.example
+
+# Editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
